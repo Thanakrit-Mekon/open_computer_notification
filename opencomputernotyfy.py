@@ -10,7 +10,7 @@ from time import sleep # awaiting connection
 
 class compsecure:
     '''Am using class because i just want to study about Object-Orient Programming concept'''
-    token = "A9eWnZbmCBqgyMLuW8JwDielvEsprxxO2JoQxyDFuW8"  # line notify token visit "https://notify-bot.line.me/" to get your
+    token = "put your line notify token here"  # line notify token visit "https://notify-bot.line.me/" to get your
     notify = LineNotify(token) # use token to identify account
     def __init__(self):
         self.ip_addr = get('https://checkip.amazonaws.com').text.strip() ### get ipv4
